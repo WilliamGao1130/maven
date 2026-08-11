@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.easytier",
+    "module": "easytier-jni",
+    "version": "2.6.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "easytier-jni-2.6.4.aar",
+          "url": "easytier-jni-2.6.4.aar",
+          "size": 7669845,
+          "sha512": "5b27d047d609a64ac911d7d1555f97b8fcecf7a250cc210b7cf3a565e41083a542c249d13d7c75df8ab0410c65ed54173df67f598a9f1715354eca439befc8b2",
+          "sha256": "3e04f013d3fc67e4f54620a045c21e9b180fdc4a506ef649fec50dd145319073",
+          "sha1": "55f576beffc400f01f04a89a22d9b02c1a6f0399",
+          "md5": "e3ca824ca00ad85c1043307fba060029"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "easytier-jni-2.6.4.aar",
+          "url": "easytier-jni-2.6.4.aar",
+          "size": 7669845,
+          "sha512": "5b27d047d609a64ac911d7d1555f97b8fcecf7a250cc210b7cf3a565e41083a542c249d13d7c75df8ab0410c65ed54173df67f598a9f1715354eca439befc8b2",
+          "sha256": "3e04f013d3fc67e4f54620a045c21e9b180fdc4a506ef649fec50dd145319073",
+          "sha1": "55f576beffc400f01f04a89a22d9b02c1a6f0399",
+          "md5": "e3ca824ca00ad85c1043307fba060029"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "easytier-jni-2.6.4-sources.jar",
+          "url": "easytier-jni-2.6.4-sources.jar",
+          "size": 1707,
+          "sha512": "dd76d96676a1940d8a4922e8d949357c1e09bb9446c22b60838990fbfd39fc4bff35524476be2100bc6f4a91f2cddc2b7982d03579fd28815afa7a1e502e3c2a",
+          "sha256": "6921b5450a3e2cd2d5d2eabd4910971d8eac9aa315215c7c1ea316e4519ea400",
+          "sha1": "305ce7b606691bb8deb399362e0380f16cc4d35e",
+          "md5": "7f04c98416fb4fbbeef1c7a38f426e76"
+        }
+      ]
+    }
+  ]
+}
