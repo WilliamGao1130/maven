@@ -1,0 +1,161 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.bluepowerrobotics",
+    "module": "AIAPIConverter",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.alibaba",
+          "module": "dashscope-sdk-java",
+          "version": {
+            "requires": "2.22.28"
+          }
+        },
+        {
+          "group": "com.openai",
+          "module": "openai-java",
+          "version": {
+            "requires": "4.50.0"
+          }
+        },
+        {
+          "group": "com.anthropic",
+          "module": "anthropic-java",
+          "version": {
+            "requires": "2.52.0"
+          }
+        },
+        {
+          "group": "com.google.genai",
+          "module": "google-genai",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.19.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "AIAPIConverter-1.0.0.jar",
+          "url": "AIAPIConverter-1.0.0.jar",
+          "size": 154840,
+          "sha512": "d66121dd91c7a07d8764e7f85edddd433c59ac400db78bae82b2a38af93259d6718cdde13e2b0bafac20d03b259f606b26536e0d6be04e5f0e3e6584d8b2371c",
+          "sha256": "ac2273f02b8aef53eea2e6c2e9e7ec23b7bd28f9cd44692e04e37c02854ed152",
+          "sha1": "3f3c72b58c8408fdf16e5ca39d54830e3f77729c",
+          "md5": "aa40cc05235f7a352fd3a8f22778c46d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.alibaba",
+          "module": "dashscope-sdk-java",
+          "version": {
+            "requires": "2.22.28"
+          }
+        },
+        {
+          "group": "com.openai",
+          "module": "openai-java",
+          "version": {
+            "requires": "4.50.0"
+          }
+        },
+        {
+          "group": "com.anthropic",
+          "module": "anthropic-java",
+          "version": {
+            "requires": "2.52.0"
+          }
+        },
+        {
+          "group": "com.google.genai",
+          "module": "google-genai",
+          "version": {
+            "requires": "1.64.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.19.4"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "2.0.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "AIAPIConverter-1.0.0.jar",
+          "url": "AIAPIConverter-1.0.0.jar",
+          "size": 154840,
+          "sha512": "d66121dd91c7a07d8764e7f85edddd433c59ac400db78bae82b2a38af93259d6718cdde13e2b0bafac20d03b259f606b26536e0d6be04e5f0e3e6584d8b2371c",
+          "sha256": "ac2273f02b8aef53eea2e6c2e9e7ec23b7bd28f9cd44692e04e37c02854ed152",
+          "sha1": "3f3c72b58c8408fdf16e5ca39d54830e3f77729c",
+          "md5": "aa40cc05235f7a352fd3a8f22778c46d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "AIAPIConverter-1.0.0-sources.jar",
+          "url": "AIAPIConverter-1.0.0-sources.jar",
+          "size": 65584,
+          "sha512": "fa1ef14f51ee8f2078bda52407036a340ac1722e8bae95b9dcfb60e45e9e87ca5acc7d885532463388e640ed3bf0152d7e632876997690b78a80edd48b40d6fd",
+          "sha256": "326bf6887087bd72e49dad76f02d8498dd32fd63aeaf4f2d190cb274175333d6",
+          "sha1": "c5c0d73acbb0b4cbf5baf4dde144f3edac9bb122",
+          "md5": "a6eebd695ccae9dc7a1e1f23f93142be"
+        }
+      ]
+    }
+  ]
+}
