@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.bluepowerrobotics",
+    "module": "LetMeAskYouCore",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.bluepowerrobotics",
+          "module": "AIAPIConverter",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "LetMeAskYouCore-1.0.1.jar",
+          "url": "LetMeAskYouCore-1.0.1.jar",
+          "size": 80984,
+          "sha512": "6a7c0fdfae8994b03d5fd1e27384bd655b1b8f7dd53b4953648bc205d8d0c43f04e8a00eb579e33b0d503a2f17d4ae16978e8e92ce44080e89714cfaa2aa586c",
+          "sha256": "64912e57e7b7aad6fb1a52ec083836ef96c2934c0e2c39a2344c817d3728a5f1",
+          "sha1": "018aaff0f8b82f234e061f818e6ddb52e8614138",
+          "md5": "17434f185b95b1a5bb0d3438cacafcd2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.19.4"
+          }
+        },
+        {
+          "group": "org.htmlunit",
+          "module": "htmlunit3-android",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "com.ibm.icu",
+          "module": "icu4j",
+          "version": {
+            "requires": "78.3"
+          }
+        },
+        {
+          "group": "org.bluepowerrobotics",
+          "module": "AIAPIConverter",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "2.0.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "LetMeAskYouCore-1.0.1.jar",
+          "url": "LetMeAskYouCore-1.0.1.jar",
+          "size": 80984,
+          "sha512": "6a7c0fdfae8994b03d5fd1e27384bd655b1b8f7dd53b4953648bc205d8d0c43f04e8a00eb579e33b0d503a2f17d4ae16978e8e92ce44080e89714cfaa2aa586c",
+          "sha256": "64912e57e7b7aad6fb1a52ec083836ef96c2934c0e2c39a2344c817d3728a5f1",
+          "sha1": "018aaff0f8b82f234e061f818e6ddb52e8614138",
+          "md5": "17434f185b95b1a5bb0d3438cacafcd2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "LetMeAskYouCore-1.0.1-sources.jar",
+          "url": "LetMeAskYouCore-1.0.1-sources.jar",
+          "size": 47578,
+          "sha512": "3c94361af0139b8cd2b1a6723dc57573af9f2b06353a783c81fbb1b24baf5d700846f5f39efeb95335a59821444a286da6aa8f6522b04b5799a1458b6f93a0ec",
+          "sha256": "c2617f7258cf45aed26a65696f807b50927ae7677cb927012c640481b1387e6c",
+          "sha1": "1bda88324f776f21542bb32c55fb50454bb5eed9",
+          "md5": "5670e964211e836a05fd0eb6241625f0"
+        }
+      ]
+    }
+  ]
+}
